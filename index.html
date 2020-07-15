@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,body,div,ul,li{
+      list-style:none;
+      margin: 0;
+      padding: 0;
+    }
+    .main{
+      width: 640px;
+      margin: 0 auto;
+    }
+    li{
+      margin-bottom:20px;
+      padding:0 10px;
+      box-sizing: border-box;
+    }
+body{
+  
+}
+    @media screen and (max-width: 640px) {
+      .main{
+        width: 100%;
+      }
+      video {
+        width: 100%;
+    }
+}
+  </style>
+</head>
+
+<body>
+  <img src="./test.jpg" alt="">
+  <div class="main">
+    <ul>
+      <li>
+        <video width="640" height="360" autoplay="autoplay" controls>
+          <source src="./movie.mp4" type="video/mp4">
+          您的浏览器不支持 HTML5 video 标签。
+        </video>
+      </li>
+      <li>
+        <video width="640" height="360" autoplay="autoplay" controls>
+          <source src="./a.mp4" type="video/mp4">
+          您的浏览器不支持 HTML5 video 标签。
+        </video>
+      </li>
+      <li><video width="640" autoplay="autoplay" controls>
+          <source src="./b.mp4" type="video/mp4">
+          您的浏览器不支持 HTML5 video 标签。
+        </video></li>
+      <li><video width="640" autoplay="autoplay" controls>
+          <source src="./c.mp4" type="video/mp4">
+          您的浏览器不支持 HTML5 video 标签。
+        </video></li>
+    </ul>
+ </div>
+ 
+</body>
+
+</html>
